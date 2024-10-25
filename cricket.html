@@ -3,50 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Creative Commons Global Summit 2015</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  
+   
     <link rel="stylesheet" href="cricket.css">
+    <link rel="stylesheet" href="cricket.js">
 </head>
+
+
 <body>
     <div class="container">
 
         <header>
-            <div class="Hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </header>
+                <span class="Hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </span>
+        
 
         <!-- Header Section -->
         <div class="header">
-            <h1><span class="greeting">Wohoooo! Are You Ready</span><br>
-                Here comes the Opening meeting<br>The T20n World Cup 2024</h1>
-            <p class="summary">
-                A joyful celebration believing in the value of openness and sharing. Create a positive change with people from over 100 countries, taking place in October, in Korea.
-            </p>
-            <p class="date-location">
+
+            <h1>
+                <span class="greeting">"Wohoooo! ARE YOU READY"</span>
+                <br>
+                 <strong>T20 WORLD CUP </strong>  
+                <br>
+                CEREMONY
+                <br>
+                2024
+            </h1>
+            
+            
+            <div id="summary">
+                <p class="summary">
+                    A joyful celebration believing in the value of openness and sharing. Create a positive change with people from over 100 countries, taking place in October, in Korea.
+                </p>
+            </div>
+                        
+            <p class="date">
                 <strong>2015.10.15 (THU) - 16 (FRI)</strong><br>
+            </p>
+
+            <p class="location">
                 @ National Museum of Korea, Art Center Nabi, and more
             </p>
         </div>
-
+    </header>
         <!-- Main Program Section -->
         <section class="main-program">
-            <h2>Major Events</h2>
+            <h2>MAJOR EVENTS</h2>
+
+
             <div class="program-list">
                 <div class="program-item">
+
                     <div class="imageSet"><img src="fireworks.jpg" alt=""></div>
                    
                     <h3>Fire Works</h3>
 
                     <p>You all will be pleased by the sizzling and thrilling fireworks.</p>
                 </div>
+
                 <div class="program-item">
+
                     <div class="imageSet"><img src="flag.png" alt=""></div>
                     <h3>ANTHEMS</h3>
                     <p>As all of the countries are important to us equally so all will be respected by national anthem sound in the ground.</p>
                 </div>
+
                 <div class="program-item">
+
                     <div class="imageSet"><img src="music.png" alt=""></div>
                     <h3>Musical Evening</h3>
                     <p>You will be enjoying the concerts of the major singers whose voice will ammuse you the most.</p>
@@ -59,18 +91,52 @@
                     <h3>Squads</h3>
                     <p>Rameez Raja will be there to display the squads of teams.</p>
                 </div>
+
                 <div class="program-item">
                     <div class="imageSet"><img src="stadium.jpg" alt=""></div>
                     <h3>CC Ignite</h3>
                     <p>Get opportunities to network with CC affiliates around the world, and learn more about CC activities.</p>
                 </div>
             </div>
+            <div class="cta">
+                <a href="#" class="cta-button">Join CC Global Summit 2015</a>
+            </div>
         </section>
 
-        <!-- Call to Action Section -->
-        <footer class="cta">
-            <a href="#" class="cta-button">Join CC Global Summit 2015</a>
+
+        <div class="speakers-section">
+            <h2>Featured Speakers</h2>
+    
+            <!-- The speakers list will be dynamically inserted here by JavaScript -->
+            <div id="speakers-container"></div>
+    
+            <div class="more-button">
+                <a href="#">More <span>&#x25BC;</span></a>
+            </div>
+        </div>
+        
+        <div class="partners-section">
+            <h2>Partner</h2>
+            
+            <div class="partners-logos">
+                <img src="firefox-removebg-preview.png" alt="Mozilla">
+                <img src="google-logo-removebg-preview.png" alt="Google">
+                <img src="naver-logo-removebg-preview.png" alt="Naver">
+                <img src="daum-logo-Photoroom.png" alt="Daumkakao">
+                <img src="airbnb-logo-Photoroom.png" alt="Airbnb">
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="footer-content">
+                <img src="t20.jpg" alt="Creative Commons Korea Logo">
+                <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+            </div>
         </footer>
+    
+        
     </div>
+
+   
 </body>
 </html>
