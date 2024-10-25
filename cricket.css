@@ -7,7 +7,7 @@
 body {
     width: 100%;
     max-width: 768px;
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: #f3f3f3;
     color: #333;
 }
@@ -46,33 +46,45 @@ header{
 
 
 
-.greeting {
-    text-align: left;
-    color: orange;
+.header .greeting {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FF5722;
+  }
+
+
+.header h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 36px; /* Adjust font-size as needed */
+    line-height: 1.4;
+    color: #E6453A; /* Color similar to the bold text in the image */
+  }
+
+  .header .summary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 16px;
-}
-
-h1 {
-    text-align: left;
-    font-size: 22px;
-    color: #e74c3c;
-    margin-bottom: 10px;
-}
-
-.summary {
-    text-align: left;
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-}
-
-.date-location {
-    margin-top: 10px;
-    font-size: 14px;
     color: #333;
-    font-weight: bold;
-}
+  }
 
+
+  .header .summary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+  }
+
+
+.main-program{
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("majorBackground.png");
+    background-image: cover;
+}
 .main-program h2 {
     background-color: #333;
     color: #fff;
@@ -87,7 +99,12 @@ h1 {
 
 .program-item {
     display: flex;
+    width: 80%;
+    margin-left: 33px;
+    left: 10px;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #eee;
     margin-bottom: 10px;
     padding: 15px;
@@ -95,17 +112,25 @@ h1 {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+.imageSet{
+    
+    width: 25%;
+}
 .program-item img{
-    height: 20px;
-    width: 20px;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
 }
 .program-item h3 {
+    display: flex;
+    padding: 5px;
     font-size: 18px;
     color: #e74c3c;
     margin-bottom: 5px;
 }
 
 .program-item p {
+    width: 50%;
     font-size: 14px;
     color: #555;
 }
